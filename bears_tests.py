@@ -10,6 +10,7 @@ class TestAssign1(unittest.TestCase):
 
     def test_bear_03(self):
         self.assertFalse(bears(53))
+        self.assertFalse(bears(400))
 
     def test_bear_04(self):
         self.assertFalse(bears(41))
